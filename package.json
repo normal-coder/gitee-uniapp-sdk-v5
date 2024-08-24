@@ -1,6 +1,6 @@
 {
   "name": "gitee-uniapp-sdk-v5",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "repository": {
     "type": "git",
     "url": "https://gitee.com/normal-coder/gitee-uniapp-sdk-v5.git"
@@ -13,7 +13,8 @@
   "license": "MIT",
   "main": "src/index.ts",
   "scripts": {
-    "generate-openapi": "openapi-ts"
+    "generate-openapi": "openapi-ts",
+    "release": "standard-version"
   },
   "keywords": [
     "gitee",
@@ -23,6 +24,7 @@
   ],
   "devDependencies": {
     "openapi-ts-request": "^0.4.9",
+    "standard-version": "^9.5.0",
     "typescript": "^5.5.4"
   },
   "dependencies": {
