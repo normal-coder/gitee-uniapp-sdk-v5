@@ -1,0 +1,32 @@
+{
+  "name": "gitee-uniapp-sdk-v5",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/normal-coder/gitee-uniapp-sdk-v5.git"
+  },
+  "description": "Gitee API V5 SDK for uniapp",
+  "author": {
+    "name": "诺墨",
+    "email": "normal@normalcoder.com"
+  },
+  "license": "MIT",
+  "main": "src/index.ts",
+  "scripts": {
+    "generate-openapi": "openapi-ts"
+  },
+  "keywords": [
+    "gitee",
+    "uniapp",
+    "sdk",
+    "OAuth"
+  ],
+  "devDependencies": {
+    "openapi-ts-request": "^0.4.9",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@uni-helper/axios-adapter": "^1.5.2",
+    "axios": "^1.7.5"
+  }
+}
